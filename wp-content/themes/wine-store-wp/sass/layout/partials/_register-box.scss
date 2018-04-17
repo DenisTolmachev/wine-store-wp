@@ -1,0 +1,27 @@
+.register-box {
+  width: 100%;
+  display: inline-block;
+  //float: right;
+  .cart {
+    float: left;
+    margin-top: 5px;
+    cursor: pointer;
+    height: 33px;
+    width: 34px;
+    background-image: url(images/cart.png);
+  }
+  .buttons {
+    display: inline-block;
+    float: right;
+    padding-top: 5px;
+    padding-right: 22px;
+    button {
+      padding: 8px 36px;
+      margin-left: 12px;
+      &:hover {
+        background-color: #fffdfd;
+        color: $orange
+      }
+    }
+  }
+}

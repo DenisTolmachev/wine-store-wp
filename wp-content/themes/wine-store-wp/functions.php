@@ -18,3 +18,7 @@ function enqueue_scripts () {
     wp_enqueue_script('html5-shim');
 }
 add_action('wp_enqueue_scripts', 'enqueue_scripts');
+
+if (function_exists('add_theme_support')) {
+    add_theme_support('menus');
+}

@@ -1,0 +1,46 @@
+.grapes {
+  margin-bottom: 70px;
+  margin-top: 40px;
+  .img-wrap {
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; /* border radius */
+    box-sizing: border-box;
+    border: solid 6px #d8dde1;
+    cursor: pointer;
+    img {
+      margin-top: -7px;
+      margin-left: -30px;
+    }
+    .img-title {
+      height: 46px;
+      width: 173px;
+      right: 40px;
+      position: absolute;
+      z-index: 11;
+      bottom: 80px;
+      -moz-border-radius: 23px;
+      -webkit-border-radius: 23px;
+      border-radius: 23px; /* border radius */
+      -moz-background-clip: padding;
+      -webkit-background-clip: padding-box;
+      background-clip: padding-box; /* prevents bg color from leaking outside the border */
+      background-color: rgba(177,188,195,.7); /* layer fill content */
+      &:hover {
+        background-color: rgba(177,188,195,.9);
+      }
+      p {
+        color: $white;
+        font-family: $OSBolb;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  }
+}
