@@ -7,19 +7,19 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="phone-st">
-                        <img src="images/phone-st.png" alt="">
+                        <img src="/wp-content/themes/wine-store-wp/images/phone-st.png" alt="">
                         <p>Тел. (061) 271-94-53</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="phone-mob">
-                        <img src="images/phone-mob.png" alt="">
+                        <img src="/wp-content/themes/wine-store-wp/images/phone-mob.png" alt="">
                         <p>Моб. 067-95-92-463</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="e-mail">
-                        <img class="mail" src="images/mail.png" alt="">
+                        <img class="mail" src="/wp-content/themes/wine-store-wp/images/mail.png" alt="">
                         <a href="mailto:Zagorulko_v_v@mail.ru">e-mail: Zagorulko_v_v@mail.ru</a>
                     </div>
                 </div>

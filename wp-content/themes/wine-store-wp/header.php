@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-6">
                     <div class="register-box">
-                        <div class="cart" onclick="location.href = ''">
+                        <div class="cart" onclick="location.href = 'cart'">
 
                         </div>
                         <div class="buttons" id="reg-buttons">

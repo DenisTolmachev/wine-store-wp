@@ -8570,7 +8570,7 @@ body {
 /* line 1, sass/layout/_implementation-block.scss */
 .implementation-block {
   height: 670px;
-  background-image: url(../img/Drinks_Wine_Bottle.png);
+  background-image: url(images/Drinks_Wine_Bottle.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: -45px;
@@ -8583,7 +8583,7 @@ body {
   height: 46px;
   position: absolute;
   content: '';
-  background-image: url(../img/figure2.png);
+  background-image: url(images/figure2.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
