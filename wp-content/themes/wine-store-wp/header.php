@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
                     <nav class="navbar-header">
-                        <? wp_nav_menu(array('menu' => 'nav-menu', 'menu_class' => 'nav-menu')); ?>
+                        <?= wp_nav_menu(array('menu' => 'nav-menu', 'menu_class' => 'nav-menu')); ?>
                     </nav>
                     <div id="sliding-menu"></div>
                 </div>

@@ -7,30 +7,30 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="phone-st">
-                        <img src="/wp-content/themes/wine-store-wp/images/phone-st.png" alt="">
-                        <p>Тел. (061) 271-94-53</p>
+                        <img src="<?= get_image_path(); ?>/phone-st.png" alt="">
+                        <p>Тел. (061) 111-11-11</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                     <div class="phone-mob">
-                        <img src="/wp-content/themes/wine-store-wp/images/phone-mob.png" alt="">
-                        <p>Моб. 067-95-92-463</p>
+                        <img src="<?= get_image_path(); ?>/phone-mob.png" alt="">
+                        <p>Моб. 111-11-11-111</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="e-mail">
-                        <img class="mail" src="/wp-content/themes/wine-store-wp/images/mail.png" alt="">
-                        <a href="mailto:Zagorulko_v_v@mail.ru">e-mail: Zagorulko_v_v@mail.ru</a>
+                        <img class="mail" src="<?= get_image_path(); ?>/mail.png" alt="">
+                        <a href="#">e-mail: test@test.com</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <nav class="navbar-footer">
-            <? wp_nav_menu(array('menu' => 'nav-menu', 'menu_class' => 'nav-menu')); ?>
+            <?= wp_nav_menu(array('menu' => 'nav-menu', 'menu_class' => 'nav-menu')); ?>
         </nav>
         <div class="copyright">
-            <p>Все права защищены 2016</p>
+            <p>(c) Все права защищены 2016</p>
         </div>
     </footer>
 

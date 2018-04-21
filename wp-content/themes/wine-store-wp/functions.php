@@ -22,3 +22,7 @@ add_action('wp_enqueue_scripts', 'enqueue_scripts');
 if (function_exists('add_theme_support')) {
     add_theme_support('menus');
 }
+
+function get_image_path(){
+    return get_theme_root_uri() . '/' . get_template() . '/images';
+}
