@@ -10,7 +10,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="container">
-    <header>
+    <header id="header-news">
         <div class="nav-field">
             <div class="row">
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
@@ -32,7 +32,7 @@
                 </div>
             </div>
         </div>
-        <div class="header-circle">
-            <p>авторские селекционные формы и сорта винограда</p>
+        <div class="page_title">
+            <p><?php echo wp_get_document_title(); ?></p>
         </div>
     </header>

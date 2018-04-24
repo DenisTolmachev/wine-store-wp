@@ -8415,7 +8415,7 @@ button {
 /* line 4, sass/layout/partials/news-page.scss */
 #header-news {
   max-height: 214px;
-  background-image: url(../img/news-header-bg.png);
+  background-image: url(images/news-header-bg.png);
   overflow: visible;
   background-position-y: 0;
 }
@@ -8473,13 +8473,13 @@ button {
 .article .news__post .down {
   height: 34px;
   width: 34px;
-  background-image: url(../img/down.png);
+  background-image: url(images/down.png);
 }
 /* line 53, sass/layout/partials/news-page.scss */
 .article .news__post .up {
   height: 34px;
   width: 34px;
-  background-image: url(../img/up.png);
+  background-image: url(images/up.png);
 }
 
 /* line 61, sass/layout/partials/news-page.scss */

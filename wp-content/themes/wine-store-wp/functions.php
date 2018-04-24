@@ -22,3 +22,8 @@ add_action('wp_enqueue_scripts', 'enqueue_scripts');
 if (function_exists('add_theme_support')) {
     add_theme_support('menus');
 }
+
+add_filter('document_title_parts', function( $parts ){
+    if( isset($parts['site']) ) unset($parts['site']);
+    return $parts;
+});
