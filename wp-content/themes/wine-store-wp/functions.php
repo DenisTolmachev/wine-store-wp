@@ -23,7 +23,16 @@ if (function_exists('add_theme_support')) {
     add_theme_support('menus');
 }
 
+function get_image_path(){
+    return get_theme_root_uri() . '/' . get_template() . '/images';
+}
+
 add_filter('document_title_parts', function( $parts ){
     if( isset($parts['site']) ) unset($parts['site']);
     return $parts;
 });
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}

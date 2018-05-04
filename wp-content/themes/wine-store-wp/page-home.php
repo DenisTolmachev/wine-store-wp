@@ -8,28 +8,28 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="consult-block">
-                            <img src="/wp-content/themes/wine-store-wp/images/consult.png" alt="">
+                            <img src="<?= get_image_path(); ?>/consult.png" alt="">
                             <h1>бесплатная консультация</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mi nec justo vestibulum auctor. Phasellus sollicitudin diam at feugiat dictum. </p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="natur-product-block">
-                            <img src="/wp-content/themes/wine-store-wp/images/natur-product.png" alt="">
+                            <img src="<?= get_image_path(); ?>/natur-product.png" alt="">
                             <h1>100% натуральный продукт</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mi nec justo vestibulum auctor. Phasellus sollicitudin diam at feugiat dictum. </p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="cup-block">
-                            <img src="/wp-content/themes/wine-store-wp/images/cup.png" alt="">
+                            <img src="<?= get_image_path(); ?>/cup.png" alt="">
                             <h1 class="outborder">победитель международных выставок</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mi nec justo vestibulum auctor. Phasellus sollicitudin diam at feugiat dictum. </p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
                         <div class="persent-block">
-                            <img src="/wp-content/themes/wine-store-wp/images/persent.png" alt="">
+                            <img src="<?= get_image_path(); ?>/persent.png" alt="">
                             <h1>скидка<br>на покупку</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu mi nec justo vestibulum auctor. Phasellus sollicitudin diam at feugiat dictum. </p>
                         </div>
@@ -51,7 +51,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="grapes">
                             <a class="img-wrap" href="./images/grapes1.png">
-                                <img src="/wp-content/themes/wine-store-wp/images/grapes1.png" alt="Сфинкс">
+                                <img src="<?= get_image_path(); ?>/grapes1.png" alt="Сфинкс">
                                 <div class="img-title">
                                     <p>Сфинкс</p>
                                 </div>
@@ -60,8 +60,8 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="grapes">
-                            <a class="img-wrap" href="/wp-content/themes/wine-store-wp/images/grapes2.png">
-                                <img src="/wp-content/themes/wine-store-wp/images/grapes2.png" alt="Велес">
+                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes2.png">
+                                <img src="<?= get_image_path(); ?>/grapes2.png" alt="Велес">
                                 <div class="img-title">
                                     <p>Велес</p>
                                 </div>
@@ -70,8 +70,8 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="grapes">
-                            <a class="img-wrap" href="/wp-content/themes/wine-store-wp/images/grapes3.png">
-                                <img src="/wp-content/themes/wine-store-wp/images/grapes3.png" alt="Калиста">
+                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes3.png">
+                                <img src="<?= get_image_path(); ?>/grapes3.png" alt="Калиста">
                                 <div class="img-title">
                                     <p>Калиста</p>
                                 </div>
@@ -81,7 +81,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="grapes">
                             <a class="img-wrap" href="./images/grapes1.png">
-                                <img src="/wp-content/themes/wine-store-wp/images/grapes1.png" alt="Сфинкс">
+                                <img src="<?= get_image_path(); ?>/grapes1.png" alt="Сфинкс">
                                 <div class="img-title">
                                     <p>Сфинкс</p>
                                 </div>
@@ -90,8 +90,8 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="grapes">
-                            <a class="img-wrap" href="/wp-content/themes/wine-store-wp/images/grapes2.png">
-                                <img src="/wp-content/themes/wine-store-wp/images/grapes2.png" alt="Велес">
+                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes2.png">
+                                <img src="<?= get_image_path(); ?>/grapes2.png" alt="Велес">
                                 <div class="img-title">
                                     <p>Велес</p>
                                 </div>
@@ -100,8 +100,8 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-6">
                         <div class="grapes">
-                            <a class="img-wrap" href="/wp-content/themes/wine-store-wp/images/grapes3.png">
-                                <img src="/wp-content/themes/wine-store-wp/images/grapes3.png" alt="Калиста">
+                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes3.png">
+                                <img src="<?= get_image_path(); ?>/grapes3.png" alt="Калиста">
                                 <div class="img-title">
                                     <p>Калиста</p>
                                 </div>

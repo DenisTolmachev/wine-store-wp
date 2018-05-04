@@ -15,13 +15,13 @@
             <div class="row">
                 <div class="col-lg-7 col-md-7 col-sm-7 col-xs-6">
                     <nav class="navbar-header">
-                        <? wp_nav_menu(array('menu' => 'nav-menu', 'menu_class' => 'nav-menu')); ?>
+                        <?= wp_nav_menu(array('menu' => 'nav-menu', 'menu_class' => 'nav-menu')); ?>
                     </nav>
                     <div id="sliding-menu"></div>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-6">
                     <div class="register-box">
-                        <div class="cart" onclick="location.href = 'cart'">
+                        <div class="cart" onclick="location.href = ' http://wine-store-wp/catalog/cart'">
 
                         </div>
                         <div class="buttons" id="reg-buttons">
