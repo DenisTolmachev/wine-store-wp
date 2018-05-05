@@ -27,3 +27,10 @@ header {
     }
   }
 }
+
+#header-news {
+  max-height: 214px;
+  background-image: url(images/news-header-bg.png);
+  overflow: visible;
+  background-position-y: 0;
+}

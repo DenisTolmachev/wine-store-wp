@@ -161,8 +161,8 @@ function news_pagination($args = array()){
                     'current'   => max( 1, $args['paged'] ),
                     'total'     => $args['total'],
                     'prev_next' => true,
-                    'prev_text' => __('« Previous', 'wp-blog-and-widgets'),
-                    'next_text' => __('Next »', 'wp-blog-and-widgets'),
+                    'prev_text' => __('', 'wp-blog-and-widgets'),
+                    'next_text' => __('', 'wp-blog-and-widgets'),
                 ));
     
     echo paginate_links($paging);
