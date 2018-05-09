@@ -2,7 +2,7 @@
 Contributors: wponlinesupport, anoopranawat
 Tags: wponlinesupport, wordpress news plugin, news website, main news page scrolling , wordpress vertical news plugin widget, wordpress horizontal news plugin widget , Free scrolling news wordpress plugin, Free scrolling news widget wordpress plugin, WordPress set post or page as news, WordPress dynamic news, news, latest news, custom post type, cpt, widget, vertical news scrolling widget, news widget
 Requires at least: 3.1
-Tested up to: 4.9.4
+Tested up to: 4.9.5
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -160,6 +160,11 @@ Yse  <code> [sp_news] </code>
 
 == Changelog ==
 
+= 4.0.1 (07 May 2018) =
+* [*] Taken batter care in list design if featured image not added.
+* [*] Fixed grid-1 issues, where grid was loading actual image path.
+* [*] Fixed some design issues
+
 = 4.0 (30 March 2018) =
 * [*] Fixed some design issues
 * [*] Modified plugin file structure 
@@ -262,6 +267,11 @@ Yse  <code> [sp_news] </code>
 * Initial release.
 
 == Upgrade Notice ==
+
+= 4.0.1 (07 May 2018) =
+* [*] Taken batter care in list design if featured image not added.
+* [*] Fixed grid-1 issues, where grid was loading actual image path.
+* [*] Fixed some design issues
 
 = 4.0 (30 March 2018) =
 * [*] Fixed some design issues

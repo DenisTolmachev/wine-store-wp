@@ -1,18 +1,18 @@
 <?php
 /*
 Plugin Name: WP News and Scrolling Widgets
-Plugin URL: https://www.wponlinesupport.com
+Plugin URL: https://www.wponlinesupport.com/plugins/
 Text Domain: sp-news-and-widget
 Domain Path: /languages/
 Description: A simple News and three widgets(static, scrolling and with thumbs) plugin
-Version: 4.0
+Version: 4.0.1
 Author: WP Online Support
 Author URI: https://www.wponlinesupport.com
 Contributors: WP Online Support
 */
 
 if( !defined( 'WPNW_VERSION' ) ) {
-    define( 'WPNW_VERSION', '4.0' ); // Version of plugin
+    define( 'WPNW_VERSION', '4.0.1' ); // Version of plugin
 }
 if( !defined( 'WPNW_DIR' ) ) {
     define( 'WPNW_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -21,40 +21,33 @@ if( !defined( 'WPNW_POST_TYPE' ) ) {
     define( 'WPNW_POST_TYPE', 'news' ); // Plugin post type
 }
 
-/* Plugin Analytics Data Starts */
+/* Plugin Analytics Data */
+function wpos_analytics_anl20_load() {
 
-function wnasw_fs() {
-    global $wnasw_fs;
+    require_once dirname( __FILE__ ) . '/wpos-analytics/wpos-analytics.php';
 
-    if ( ! isset( $wnasw_fs ) ) {
-        // Include Freemius SDK.
-        require_once dirname(__FILE__) . '/freemius/start.php';
+    $wpos_analytics =  wpos_anylc_init_module( array(
+                            'id'            => 20,
+                            'file'          => plugin_basename( __FILE__ ),
+                            'name'          => 'WP News and Scrolling Widgets',
+                            'slug'          => 'wp-news-and-scrolling-widgets',
+                            'type'          => 'plugin',
+                            'menu'          => 'edit.php?post_type=news',
+                            'text_domain'   => 'sp-news-and-widget',
+                            'promotion'     => array( // Only Pass if you have Promotion file
+                                                    'bundle' => array(
+                                                                'name'  => 'Plugin and Theme Bundle',
+                                                                'desc'  => 'Yes, I want to download the 50+ Plugins and 12+ Themes free.',
+                                                                'file'  => 'https://www.wponlinesupport.com/latest/wpos-free-50-plugins-plus-12-themes.zip'
+                                                            )
+                                                    )
+                        ));
 
-        $wnasw_fs = fs_dynamic_init( array(
-            'id'                  => '1773',
-            'slug'                => 'sp-news-and-widget',
-            'type'                => 'plugin',
-            'public_key'          => 'pk_0b3f591a735ebcfd6f8bf21db5d9e',
-            'is_premium'          => false,
-            'has_addons'          => false,
-            'has_paid_plans'      => false,
-            'menu'                => array(
-                'slug'           => 'edit.php?post_type=news',
-                'account'        => false,
-                'contact'        => false,
-                'support'        => false,
-            ),
-        ));
-    }
-    return $wnasw_fs;
+    return $wpos_analytics;
 }
 
-// Init Freemius.
-wnasw_fs();
-
-// Signal that SDK was initiated.
-do_action( 'wnasw_fs_loaded' );
-
+// Init Analytics
+wpos_analytics_anl20_load();
 /* Plugin Analytics Data Ends */
 
 register_activation_hook( __FILE__, 'install_newsfree_version' );

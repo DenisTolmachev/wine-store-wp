@@ -135,24 +135,24 @@ function wpnaw_get_news( $atts, $content = null ){
         if($showDate == 'true'){ $date_class = "has-date"; } else { $date_class = "has-no-date";} ?>
 	
     	<div id="post-<?php the_ID(); ?>" class="news type-news news-col-<?php echo $gridcol.' '.$css_class.' '.$date_class; ?>">
-			<div class="news-inner-wrap-view news-clearfix">	
+			<div class="news-inner-wrap-view news-clearfix <?php  if ( !has_post_thumbnail()) { echo 'wpnaw-news-no-image'; } ?>">	
+				<?php  if ( has_post_thumbnail()) {   ?>
 				<div class="news-thumb">    			
-					<?php if ( has_post_thumbnail()) {    				
-						if($gridcol == '1'){ ?>    					
+				<?php if($gridcol == '1'){ ?>    					
 							<div class="grid-news-thumb">    				    
-								<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('url'); ?></a>
+								<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large'); ?></a>
 							</div>
 						<?php } else if($gridcol > '2') { ?>    					
 							<div class="grid-news-thumb">	    				    
-								<a href="<?php the_permalink(); ?>">	<?php the_post_thumbnail('large'); ?></a>
+								<a href="<?php the_permalink(); ?>">	<?php the_post_thumbnail('medium_large'); ?></a>
 							</div>
 						<?php	} else { ?>        			    
 							<div class="grid-news-thumb">        				
-								<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('large'); ?></a>
+								<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('medium_large'); ?></a>
 							</div>
-						<?php } 
-					} ?>
-				</div>			
+						<?php }  ?>
+				</div>	
+				<?php }  ?>	
 				<div class="news-content">    			
 					<?php if($gridcol == '1') {                    
 						if($showDate == 'true'){ ?>        				
@@ -198,8 +198,8 @@ function wpnaw_get_news( $atts, $content = null ){
         <?php if($pagination_type == 'numeric'){ 
             echo news_pagination( array( 'paged' => $paged , 'total' => $query->max_num_pages ) );
         }else{ ?>    		
-            <div class="button-news-p"><?php next_posts_link($query->max_num_pages ); ?></div>
-            <div class="button-news-n"><?php previous_posts_link(); ?> </div>
+            <div class="button-news-p"><?php next_posts_link( '', $query->max_num_pages ); ?></div>
+            <div class="button-news-n"><?php previous_posts_link( '' ); ?> </div>
         <?php } ?>
 	</div><?php
     

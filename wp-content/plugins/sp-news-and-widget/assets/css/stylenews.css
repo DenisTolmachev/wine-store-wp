@@ -4,6 +4,7 @@
 .news-col-3, .news-col-4, .news-col-2{margin-bottom:30px;}
 .news-col-3, .news-col-4, .news-col-2, .news-col-1, .news-col-list{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 .news-col-1 .news-inner-wrap-view, .news-col-list .news-inner-wrap-view{ border-bottom:1px solid #d1d1d1; padding-bottom:20px; margin-bottom:20px;}
+.news-col-list .wpnaw-news-no-image .news-content{margin:0; width:100%;}
 .news-col-list .news-thumb{margin-bottom:0px}
 .news .news-title{margin-top:0px !important; margin-bottom:10px !important;}
 .news .news-title a{font-size:22px; line-height:26px; color:#555; text-decoration:none !important;}
@@ -57,7 +58,7 @@
 .news_pagination .button-news-n{width:48%; float:left; text-align:left; padding-left:15px;}
 .page-numbers.current{background:#f4f4f4; padding: 7px 10px; border:1px solid #f1f1f1}
 .news_pagination a, 
-.news_pagination a{color: #fff !important;background: #333;padding: 7px 10px;display: inline-block;text-align: center;line-height: normal;box-shadow: none;text-shadow: none;font-size: 14px;text-transform: uppercase;border: 1px solid #333;text-decoration: none !important;}
+.news_pagination a{color: #fff !important;background: #333; border-radius:2px; -webkit-transition: all .3s;transition: all .3s;padding: 7px 10px;display: inline-block;text-align: center;line-height: normal;box-shadow: none;text-shadow: none;font-size: 14px;text-transform: uppercase;border: 1px solid #333;text-decoration: none !important;}
 .news_pagination a:hover, 
 .news_pagination a:focus, 
 .news_pagination a:hover, 
@@ -67,7 +68,7 @@
 .recent-news-items p{font-size:13px !important; margin-bottom:10px !important}
 
 .news-col-1.has-no-date .post-content-text{margin-left:0px; width:100%;}
-.news-more-link{padding:5px 15px; background:#555; color:#fff; display:inline-block; clear:both; text-decoration:none !important;}
+.news-more-link{padding:5px 15px; background:#555; color:#fff; border-radius:2px; display:inline-block; clear:both; text-decoration:none !important; -webkit-transition: all .3s;transition: all .3s;}
 .news-more-link:hover{background:#f1f1f1; color:#555}
 
 .widget ul li.news_li::before{content:none !important}

@@ -1,3 +1,5 @@
+/*-- Short news page--*/
+
 .wpnawfree-plugin {
   margin: 50px 20px 20px 20px;
   .news-col-list {
@@ -68,6 +70,7 @@
   box-shadow: none;
   text-shadow: none;
   font-size: 14px;
+  font-family: $OSRegular;
   text-transform: uppercase;
   border: none;
   text-decoration: none !important;
@@ -85,4 +88,50 @@
   height: 34px;
   width: 34px;
   background-image: url(images/prev.png);
+}
+
+/*-- Full news page--*/
+
+.content-area {
+  margin: 50px 40px 30px 40px;
+  .site-main {
+    display: inline-block;
+    .entry-header {
+      text-align: center;
+      .entry-title {
+        color: #4f3715;
+        font-size: 36px;
+        font-family: $OSRegular;
+        margin-bottom: 20px;
+      }
+    }
+    img {
+      width: 40%;
+      height: 40%;
+      float: left;
+    }
+    .entry-content {
+      width: 60%;
+      float: right;
+      padding-left: 30px;
+    }
+    .comment-respond {
+      display: inline-block;
+      width: 52%;
+      float: right;
+    }
+    nav {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      a {
+        color: #4f3715;
+        font-size: 20px;
+        font-family: $OSRegular;
+        text-decoration: none;
+      }
+    }
+  }
+
 }

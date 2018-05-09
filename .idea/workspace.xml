@@ -1,18 +1,265 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e38bc8ad-aa27-4aff-8a06-49599e66c8e5" name="Default" comment="wooCommerce &amp; news plugin add">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e38bc8ad-aa27-4aff-8a06-49599e66c8e5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/assets/css/wpos-anylc-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/assets/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/assets/images/wpos-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/assets/js/wpos-anylc-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/includes/class-anylc-admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/includes/class-anylc-script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/includes/wpos-anylc-function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/templates/analytic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/templates/optout-popup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/wpos-analytics/wpos-analytics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-deprecated-hooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-integration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-log-handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-object-query.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-payment-gateway.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-payment-token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-rest-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-rest-crud-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-rest-posts-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-rest-shipping-zones-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-rest-terms-controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-shipping-method.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-widget.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/abstracts/class-wc-background-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/customizer/class-wc-customizer-control-cropping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/customizer/class-wc-shop-customizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-coupon-data-store-cpt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store-session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-data-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-customer-download-data-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-data-store-wp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-data-store-cpt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-data-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-item-shipping-data-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-order-refund-data-store-cpt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-grouped-data-store-cpt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-product-variable-data-store-cpt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-shipping-zone-data-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/data-stores/class-wc-webhook-data-store.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-abstract-order-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-coupon-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-customer-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-customer-download-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-customer-download-log-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-importer-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-log-handler-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-logger-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-object-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-order-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-order-item-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-order-item-product-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-order-item-type-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-order-refund-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-payment-token-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-product-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-product-variable-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-shipping-zone-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/interfaces/class-wc-webhooks-data-store-interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/class-emogrifier.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/class-wc-eval-math.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/libraries/wp-background-process.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/legacy-free-shipping/class-wc-shipping-legacy-free-shipping.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/legacy-international-delivery/class-wc-shipping-legacy-international-delivery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shipping/legacy-local-pickup/class-wc-shipping-legacy-local-pickup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-order-tracking.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/assets/css/stylenews.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/assets/css/stylenews.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/account.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/add-ons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/affiliation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/checkout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/connect.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/deactivation-feedback.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/debug.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/dialog-boxes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/admin/license-activation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/customizer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/css/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/img/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/img/plugin-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/img/sp-news-and-widget.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/img/theme-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/js/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/js/nojquery.ba-postmessage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/js/nojquery.ba-postmessage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/js/postmessage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/_load.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/_start.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/_ajax-loader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/_auto-install.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/_deactivation-feedback.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/_license-activation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/_license-key-resend.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/_modal-common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/_themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/account.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/add-ons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/affiliation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/checkout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/connect.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/debug.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/dialog-boxes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/customizer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/assets/scss/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/class-freemius-abstract.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/class-freemius.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/class-fs-api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/class-fs-logger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/class-fs-plugin-updater.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/class-fs-security.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/customizer/class-fs-customizer-support-section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/customizer/class-fs-customizer-upsell-control.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/customizer/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/debug/class-fs-debug-bar-panel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/debug/debug-bar-start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/debug/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-affiliate-terms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-affiliate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-billing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-entity.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-payment.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-plugin-info.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-plugin-license.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-plugin-plan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-plugin-tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-plugin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-pricing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-scope-entity.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-site.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-subscription.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/class-fs-user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/entities/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/fs-core-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/fs-essential-functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/fs-plugin-info-dialog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/i18n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/l10n.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-admin-menu-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-admin-notice-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-cache-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-key-value-storage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-license-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-option-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-plan-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/class-fs-plugin-manager.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/managers/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/Exceptions/ArgumentNotExistException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/Exceptions/EmptyArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/Exceptions/Exception.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/Exceptions/InvalidArgumentException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/Exceptions/OAuthException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/Exceptions/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/FreemiusBase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/FreemiusWordPress.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/sdk/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/supplements/fs-essential-functions-1.1.7.1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/includes/supplements/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-da_DK.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-da_DK.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-en.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-en.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-es_ES.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-es_ES.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-he_IL.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-he_IL.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-it_IT.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-it_IT.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-ja_JP.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius-ja_JP.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/freemius.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/languages/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/require.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/account.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/account/billing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/account/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/account/payments.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/add-ons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/add-trial-to-pricing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/admin-notice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/ajax-loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/all-admin-notice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/auto-installation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/checkout-legacy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/checkout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/debug/api-calls.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/debug/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/debug/logger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/debug/plugins-themes-sync.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/debug/scheduled-crons.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/email.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/firewall-issues-js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/affiliation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/deactivation/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/deactivation/form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/deactivation/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/deactivation/retry-skip.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/license-activation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/optout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/resend-key.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/forms/trial-start.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/js/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/js/jquery.content-change.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/js/style-premium-theme.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/plugin-icon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/plugin-info/description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/plugin-info/features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/plugin-info/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/plugin-info/screenshots.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/powered-by.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/pricing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/secure-https-header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/sticky-admin-notice-js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/tabs-capture-js.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/templates/tabs.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-shortcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-shortcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/sp-news-and-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/sp-news-and-widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/.sass-cache/944d964f6207fcf081625a916172e37297833c5d/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/.sass-cache/944d964f6207fcf081625a916172e37297833c5d/_header.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/.sass-cache/efbb64d81cc5d57eeb80fe87dba9a46c7d3254fc/news-page.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/.sass-cache/efbb64d81cc5d57eeb80fe87dba9a46c7d3254fc/news-page.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/images/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/images/right.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/layout/partials/news-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/layout/partials/news-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wine-store-wp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wc-logs/wc-image-regeneration-193b4ab33ae9b0120bf2416d684951c0.log" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/wc-logs/wc-image-regeneration-193b4ab33ae9b0120bf2416d684951c0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +270,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-contacts.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-contacts.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/page-contacts.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/single.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news-page.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="sp-news-and-widget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/sp-news-and-widget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2414">
+              <caret line="152" column="46" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sp-news-shortcode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-shortcode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="142" column="92" selection-start-line="142" selection-start-column="74" selection-end-line="142" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -40,6 +337,7 @@
       <find>read</find>
       <find>news-m</find>
       <find>prev</find>
+      <find>thumbnail</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,13 +370,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/assets/css/stylenews.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-shortcode.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/sp-news-and-widget.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/_map.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/__partials.scss" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-shortcode.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/sp-news-and-widget.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/page-contacts.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/content.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss" />
       </list>
     </option>
   </component>
@@ -89,9 +389,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/freemius/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -122,6 +420,35 @@
               <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
               <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sp-news-and-widget" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sp-news-and-widget" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sp-news-and-widget" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -129,7 +456,41 @@
               <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="twentyfifteen" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
               <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wine-store-wp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wine-store-wp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="sass" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -144,13 +505,13 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\OSPanel\domains\wine-store-wp\wp-content\themes\wine-store-wp\js" />
-      <recent name="E:\OSPanel\domains\wine-store-wp\wp-content\themes\wine-store-wp" />
-      <recent name="E:\OSPanel\domains\wine-store-wp\wp-content\themes\wine-store-wp\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\OSPanel\domains\wine-store-wp\wp-content\themes\wine-store-wp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OSPanel\domains\wine-store-wp\wp-content\themes\wine-store-wp" />
+      <recent name="E:\OSPanel\domains\wine-store-wp\wp-content\themes\wine-store-wp\js" />
+      <recent name="E:\OSPanel\domains\wine-store-wp\wp-content\themes\wine-store-wp\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,7 +546,8 @@
       <workItem from="1525192795904" duration="6173000" />
       <workItem from="1525374287243" duration="10146000" />
       <workItem from="1525453365484" duration="3406000" />
-      <workItem from="1525539121878" duration="12101000" />
+      <workItem from="1525539121878" duration="12568000" />
+      <workItem from="1525888105161" duration="9152000" />
     </task>
     <task id="LOCAL-00001" summary="create components">
       <created>1523825206572</created>
@@ -236,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525456932937</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="news page styling">
+      <created>1525551544605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1525551544606</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55038000" />
+    <option name="totallyTimeSpent" value="64657000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -253,6 +622,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.3292683" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012854" side_tool="true" weight="0.3292683" />
@@ -260,7 +630,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49871466" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292683" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.283419" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28727508" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
@@ -279,19 +649,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -309,24 +679,11 @@
     <MESSAGE value="create header &amp; footer" />
     <MESSAGE value="Merge branch 'master' of https://github.com/DenisTolmachev/wine-store-wp&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;wp-content/themes/wine-store-wp/functions.php&#10;#&#9;wp-content/themes/wine-store-wp/layout/partials/news-page.css" />
     <MESSAGE value="wooCommerce &amp; news plugin add" />
-    <option name="LAST_COMMIT_MESSAGE" value="wooCommerce &amp; news plugin add" />
+    <MESSAGE value="news page styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="news page styling" />
   </component>
   <component name="WordPressConfiguration" doNotAskAgain="true" />
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyseventeen/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -419,16 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -469,16 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="1248" column="16" selection-start-line="1248" selection-start-column="16" selection-end-line="1248" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#113#119#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#81#87#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#104#110#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-            <element signature="e#96#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,12 +832,6 @@
           <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/images/down.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/images/up.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -542,16 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/images/next.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-shortcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="207" column="26" lean-forward="true" selection-start-line="207" selection-start-column="26" selection-end-line="207" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-post-type.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -564,29 +885,7 @@
         <state relative-caret-position="-27" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/js/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/js/map.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/_map.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/sp-news-and-widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="163" column="65" lean-forward="true" selection-start-line="163" selection-start-column="65" selection-end-line="163" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/_map.scss" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/__partials.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -615,20 +914,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/index.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/content-page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-link.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/sp-news-and-widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="152" column="46" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/sp-news-and-widget/includes/sp-news-shortcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="142" column="92" selection-start-line="142" selection-start-column="74" selection-end-line="142" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/page-contacts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
         </state>
       </provider>
     </entry>
