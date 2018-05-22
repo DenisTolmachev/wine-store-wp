@@ -36,3 +36,35 @@ add_action( 'after_setup_theme', 'woocommerce_support' );
 function woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
+
+function getLatestWoocommerceProductsList($stock, $posts_per_page){
+    $args = [
+        'post_type' => 'product',
+        'stock' => $stock,
+        'posts_per_page' => $posts_per_page,
+        'orderby' =>'date',
+        'order' => 'DESC'
+    ];
+
+    $loop = new WP_Query( $args );
+
+    $result = [];
+
+    while ($loop->have_posts()){
+        $loop->the_post();
+        array_push($result, [
+            'id' => $loop->post->ID,
+            'permalink' => get_permalink( $loop->post ),
+            'title' => $loop->post->post_title,
+            'thumb' => has_post_thumbnail( $loop->post->ID ) ? get_the_post_thumbnail($loop->post->ID, 'shop_catalog') : '<img src="'.woocommerce_placeholder_img_src().'" alt="My Image Placeholder" width="65px" height="115px" />',
+
+        ]);
+    }
+
+    wp_reset_query();
+
+    if(!empty($result))
+        return $result;
+
+    return false;
+}
