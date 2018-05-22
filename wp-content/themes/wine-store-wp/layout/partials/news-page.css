@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$OSRegular".
-        on line 11 of E:/OSPanel/domains/wine-store-wp/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss
+        on line 13 of E:/OSPanel/domains/wine-store-wp/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss
 
-6:     .news-thumb {
-7:       width: 30%;
-8:     }
-9:     .news-content {
-10:       margin-left: 4%;
-11:       font-family: $OSRegular;
-12:       .grid-date-post {
-13:         color: #4f3715; /* text color *\/
-14:       }
-15:       .post-content-text {
-16:         width: 90%;
+8:     .news-thumb {
+9:       width: 30%;
+10:     }
+11:     .news-content {
+12:       margin-left: 4%;
+13:       font-family: $OSRegular;
+14:       .grid-date-post {
+15:         color: #4f3715; /* text color *\/
+16:       }
+17:       .post-content-text {
+18:         width: 90%;
 
 Backtrace:
-E:/OSPanel/domains/wine-store-wp/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss:11
+E:/OSPanel/domains/wine-store-wp/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss:13
 C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
 C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -89,4 +89,4 @@ C:/Ruby25/lib/ruby/gems/2.5.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$OSRegular\".\A         on line 11 of E:/OSPanel/domains/wine-store-wp/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss\A \A 6:     .news-thumb {\A 7:       width: 30%;\A 8:     }\A 9:     .news-content {\A 10:       margin-left: 4%;\A 11:       font-family: $OSRegular;\A 12:       .grid-date-post {\A 13:         color: #4f3715; /* text color */\A 14:       }\A 15:       .post-content-text {\A 16:         width: 90%;"; }
+  content: "Error: Undefined variable: \"$OSRegular\".\A         on line 13 of E:/OSPanel/domains/wine-store-wp/wp-content/themes/wine-store-wp/sass/layout/partials/news-page.scss\A \A 8:     .news-thumb {\A 9:       width: 30%;\A 10:     }\A 11:     .news-content {\A 12:       margin-left: 4%;\A 13:       font-family: $OSRegular;\A 14:       .grid-date-post {\A 15:         color: #4f3715; /* text color */\A 16:       }\A 17:       .post-content-text {\A 18:         width: 90%;"; }
