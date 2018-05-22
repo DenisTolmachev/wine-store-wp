@@ -48,68 +48,25 @@
             </div>
             <div class="gallery">
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="grapes">
-                            <a class="img-wrap" href="./images/grapes1.png">
-                                <img src="<?= get_image_path(); ?>/grapes1.png" alt="Сфинкс">
-                                <div class="img-title">
-                                    <p>Сфинкс</p>
-                                </div>
-                            </a>
+                    <?php $products = getLatestWoocommerceProductsList(1, 6); ?>
+                    <?php foreach ($products as $product): ?>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <div class="grapes">
+                                <a class="img-wrap" href="<?= $product['permalink']; ?>">
+                                    <img src="<?= $product['thumb']; ?>" alt="<?= $product['title']; ?>">
+                                    <div class="img-title">
+                                        <p><?= $product['title']; ?></p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="grapes">
-                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes2.png">
-                                <img src="<?= get_image_path(); ?>/grapes2.png" alt="Велес">
-                                <div class="img-title">
-                                    <p>Велес</p>
-                                </div>
-                            </a>
+                    <?php endforeach;?>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="show-all-button">
+                            <button class="show-all" onclick="location.href = '<?= get_permalink(get_post(35)); ?>'">смотреть все</button>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="grapes">
-                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes3.png">
-                                <img src="<?= get_image_path(); ?>/grapes3.png" alt="Калиста">
-                                <div class="img-title">
-                                    <p>Калиста</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="grapes">
-                            <a class="img-wrap" href="./images/grapes1.png">
-                                <img src="<?= get_image_path(); ?>/grapes1.png" alt="Сфинкс">
-                                <div class="img-title">
-                                    <p>Сфинкс</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="grapes">
-                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes2.png">
-                                <img src="<?= get_image_path(); ?>/grapes2.png" alt="Велес">
-                                <div class="img-title">
-                                    <p>Велес</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-                        <div class="grapes">
-                            <a class="img-wrap" href="<?= get_image_path(); ?>/grapes3.png">
-                                <img src="<?= get_image_path(); ?>/grapes3.png" alt="Калиста">
-                                <div class="img-title">
-                                    <p>Калиста</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="show-all-button">
-                        <button class="show-all" onclick="location.href = ''">смотреть все</button>
                     </div>
                 </div>
             </div>

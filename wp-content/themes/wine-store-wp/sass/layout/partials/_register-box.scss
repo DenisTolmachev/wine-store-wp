@@ -19,8 +19,7 @@
       padding: 8px 36px;
       margin-left: 12px;
       &:hover {
-        background-color: #fffdfd;
-        color: $orange
+        background-color: lighten(#cb4d0f, 10%);
       }
     }
   }

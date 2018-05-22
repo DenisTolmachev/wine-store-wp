@@ -144,7 +144,7 @@ button, :hover, :focus {
 
 /* line 101, sass/layout/_base.scss */
 .main-heading {
-  padding: 50px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 /*!
@@ -8039,14 +8039,10 @@ button {
 }
 /* line 31, sass/layout/partials/_buttons.scss */
 .show-all-button .show-all:hover {
-  color: #cb4d0f;
-  background-color: #fff;
-  /* layer fill content + color overlay */
-  border: solid 1px #cb4d0f;
-  box-sizing: border-box;
+  background-color: #ee631f;
 }
 
-/* line 39, sass/layout/partials/_buttons.scss */
+/* line 36, sass/layout/partials/_buttons.scss */
 .slider-menu-button {
   padding: 5px 20px;
   margin-top: 5px;
@@ -8080,8 +8076,7 @@ button {
 }
 /* line 21, sass/layout/partials/_register-box.scss */
 .register-box .buttons button:hover {
-  background-color: #fffdfd;
-  color: #cb4d0f;
+  background-color: #ee631f;
 }
 
 /* line 1, sass/layout/partials/_header-circle.scss */
@@ -8572,6 +8567,52 @@ button {
   font-size: 20px;
   font-family: "Open Sans Regular";
   text-decoration: none;
+}
+
+/* line 1, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce ul.products {
+  padding-top: 15px;
+}
+
+/* line 5, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+  color: #4f3715;
+  font-size: 18px;
+}
+
+/* line 10, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce ul.products li.product .price {
+  color: #2d5c10;
+  font-size: 14px;
+}
+
+/* line 15, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce ul.products li.product .button {
+  margin-top: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #cb4d0f;
+  border: 0;
+}
+/* line 22, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce ul.products li.product .button:hover {
+  background-color: #ee631f;
+}
+
+/* line 27, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce ul.products li.product .onsale {
+  top: -20px;
+  right: -10px;
+}
+
+/* line 32, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce span.onsale {
+  min-height: 60px;
+  min-width: 60px;
+  background-image: url(images/sale.png);
+  background-size: cover;
+  z-index: 9;
 }
 
 /* line 1, sass/layout/_nav-field.scss */

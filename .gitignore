@@ -1,6 +1,7 @@
 .idea
 .idea/
 .idea/*
+.idea/workspace.xml
 wp-config.php
 wp-content/themes/wine-store-wp/.sass-cache/*
 wp-content/uploads/*
