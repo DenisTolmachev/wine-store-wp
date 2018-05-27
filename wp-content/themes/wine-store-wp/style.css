@@ -8650,8 +8650,18 @@ header .page_title p {
   text-align: center;
   margin-top: 44px;
 }
+/* line 30, sass/layout/_header.scss */
+header .cart_count {
+  background-color: #cb4d0f;
+  color: #fff;
+  display: block;
+  float: right;
+  padding: 0 5px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
 
-/* line 31, sass/layout/_header.scss */
+/* line 41, sass/layout/_header.scss */
 #header-news {
   max-height: 214px;
   background-image: url(images/news-header-bg.png);

@@ -21,8 +21,8 @@
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-6">
                     <div class="register-box">
-                        <div class="cart" onclick="location.href = ' http://wine-store-wp/catalog/cart'">
-
+                        <div class="cart" onclick="location.href = '<?= get_permalink( wc_get_page_id( 'cart' ) ); ?>'">
+                            <div class="cart_count"><?php echo WC()->cart->get_cart_contents_count(); ?></div>
                         </div>
                         <div class="buttons" id="reg-buttons">
                             <button class="cd-signin" onclick="location.href = ''">вход</button>
