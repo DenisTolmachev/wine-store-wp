@@ -1,3 +1,16 @@
+.woocommerce .woocommerce-ordering {
+  margin: 0 0 1em;
+  border: #4f3715 solid 1px;
+  padding: 2px;
+  border-radius: 4px;
+  select {
+    border: none;
+    outline: none;
+    color: #4f3715;
+    font-family: $OSRegular;
+  }
+}
+
 .woocommerce ul.products {
   padding-top: 15px;
 }
