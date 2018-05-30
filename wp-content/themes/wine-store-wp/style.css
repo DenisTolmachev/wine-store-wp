@@ -8549,19 +8549,13 @@ button {
   padding-left: 30px;
 }
 /* line 120, sass/layout/partials/news-page.scss */
-.content-area .site-main .comment-respond {
-  display: inline-block;
-  width: 52%;
-  float: right;
-}
-/* line 125, sass/layout/partials/news-page.scss */
 .content-area .site-main nav {
   display: inline-block;
   width: 100%;
   text-align: center;
   margin-top: 20px;
 }
-/* line 130, sass/layout/partials/news-page.scss */
+/* line 125, sass/layout/partials/news-page.scss */
 .content-area .site-main nav a {
   color: #4f3715;
   font-size: 20px;
@@ -8569,24 +8563,61 @@ button {
   text-decoration: none;
 }
 
+/*--Comment field--*/
+/* line 136, sass/layout/partials/news-page.scss */
+.comment-respond {
+  display: inline-block;
+  width: 52%;
+  color: #4f3715;
+  font-family: "Open Sans Regular";
+}
+/* line 144, sass/layout/partials/news-page.scss */
+.comment-respond .comment-form p {
+  margin: 0 0 5px;
+}
+/* line 146, sass/layout/partials/news-page.scss */
+.comment-respond .comment-form p label {
+  display: block;
+}
+/* line 149, sass/layout/partials/news-page.scss */
+.comment-respond .comment-form p textarea, .comment-respond .comment-form p input {
+  border: #4f3715 solid 1px;
+  padding: 2px 5px;
+}
+
 /* line 1, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce .woocommerce-ordering {
+  margin: 0 0 1em;
+  border: #4f3715 solid 1px;
+  padding: 2px;
+  border-radius: 4px;
+}
+/* line 6, sass/layout/partials/_woo-catalog-page.scss */
+.woocommerce .woocommerce-ordering select {
+  border: none;
+  outline: none;
+  color: #4f3715;
+  font-family: "Open Sans Regular";
+}
+
+/* line 14, sass/layout/partials/_woo-catalog-page.scss */
 .woocommerce ul.products {
   padding-top: 15px;
 }
 
-/* line 5, sass/layout/partials/_woo-catalog-page.scss */
+/* line 18, sass/layout/partials/_woo-catalog-page.scss */
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
   color: #4f3715;
   font-size: 18px;
 }
 
-/* line 10, sass/layout/partials/_woo-catalog-page.scss */
+/* line 23, sass/layout/partials/_woo-catalog-page.scss */
 .woocommerce ul.products li.product .price {
   color: #2d5c10;
   font-size: 14px;
 }
 
-/* line 15, sass/layout/partials/_woo-catalog-page.scss */
+/* line 28, sass/layout/partials/_woo-catalog-page.scss */
 .woocommerce ul.products li.product .button {
   margin-top: 5px;
   padding: 10px 20px;
@@ -8595,18 +8626,18 @@ button {
   background-color: #cb4d0f;
   border: 0;
 }
-/* line 22, sass/layout/partials/_woo-catalog-page.scss */
+/* line 35, sass/layout/partials/_woo-catalog-page.scss */
 .woocommerce ul.products li.product .button:hover {
   background-color: #ee631f;
 }
 
-/* line 27, sass/layout/partials/_woo-catalog-page.scss */
+/* line 40, sass/layout/partials/_woo-catalog-page.scss */
 .woocommerce ul.products li.product .onsale {
   top: -20px;
   right: -10px;
 }
 
-/* line 32, sass/layout/partials/_woo-catalog-page.scss */
+/* line 45, sass/layout/partials/_woo-catalog-page.scss */
 .woocommerce span.onsale {
   min-height: 60px;
   min-width: 60px;

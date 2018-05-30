@@ -117,11 +117,6 @@
       float: right;
       padding-left: 30px;
     }
-    .comment-respond {
-      display: inline-block;
-      width: 52%;
-      float: right;
-    }
     nav {
       display: inline-block;
       width: 100%;
@@ -135,5 +130,26 @@
       }
     }
   }
+}
 
+/*--Comment field--*/
+.comment-respond {
+  display: inline-block;
+  width: 52%;
+  color: #4f3715;
+  font-family: $OSRegular;
+  h3 {
+  }
+  .comment-form {
+    p {
+      margin: 0 0 5px;
+      label {
+        display: block;
+      }
+      textarea, input {
+        border: #4f3715 solid 1px;
+        padding: 2px 5px;
+      }
+    }
+  }
 }
