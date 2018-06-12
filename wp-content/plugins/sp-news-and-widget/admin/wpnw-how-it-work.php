@@ -212,8 +212,8 @@ function wpnw_howitwork_page() { ?>
 												</th>
 												<td>
 													<p><?php _e('Check plugin document for shortcode parameters and demo for designs.', 'sp-news-and-widget'); ?></p> <br/>
-													<a class="button button-primary" href="https://www.wponlinesupport.com/plugins-documentation/document-wp-news-and-scrolling-widgets/?utm_source=hp&event=doc" target="_blank"><?php _e('Documentation', 'sp-news-and-widget'); ?></a>									
-													<a class="button button-primary" href="http://demo.wponlinesupport.com/sp-news/?utm_source=hp&event=demo" target="_blank"><?php _e('Demo for Designs', 'sp-news-and-widget'); ?></a>
+													<a class="button button-primary" href="https://www.wponlinesupport.com/plugins-documentation/document-wp-news-and-scrolling-widgets/" target="_blank"><?php _e('Documentation', 'sp-news-and-widget'); ?></a>									
+													<a class="button button-primary" href="http://demo.wponlinesupport.com/sp-news/" target="_blank"><?php _e('Demo for Designs', 'sp-news-and-widget'); ?></a>
 												</td>
 											</tr>
 										</tbody>
@@ -256,8 +256,8 @@ function wpnw_howitwork_page() { ?>
 										<li>Custom CSS</li>
 										<li>100% Multi language</li>
 									</ul>
-									<a class="button button-primary wpos-button-full" href="https://www.wponlinesupport.com/wp-plugin/sp-news-and-scrolling-widgets/?utm_source=hp&event=go_premium" target="_blank"><?php _e('Go Premium ', 'sp-news-and-widget'); ?></a>	
-									<p><a class="button button-primary wpos-button-full" href="http://demo.wponlinesupport.com/prodemo/news-plugin-pro/?utm_source=hp&event=pro_demo" target="_blank"><?php _e('View PRO Demo ', 'sp-news-and-widget'); ?></a>			</p>								
+									<a class="button button-primary wpos-button-full" href="https://www.wponlinesupport.com/wp-plugin/sp-news-and-scrolling-widgets/" target="_blank"><?php _e('Go Premium ', 'sp-news-and-widget'); ?></a>	
+									<p><a class="button button-primary wpos-button-full" href="http://demo.wponlinesupport.com/prodemo/news-plugin-pro/" target="_blank"><?php _e('View PRO Demo ', 'sp-news-and-widget'); ?></a>			</p>								
 								</div><!-- .inside -->
 							</div><!-- #general -->
 						</div><!-- .meta-box-sortables ui-sortable -->
@@ -271,7 +271,7 @@ function wpnw_howitwork_page() { ?>
                                 </h3>
                                 <div class="inside">
                                     <p><?php _e('Hire our experts for WordPress website support.', 'sp-news-and-widget'); ?></p>
-                                    <p><a class="button button-primary wpos-button-full" href="https://www.wponlinesupport.com/projobs-support/?utm_source=hp&event=projobs" target="_blank"><?php _e('PRO Support', 'sp-news-and-widget'); ?></a></p>
+                                    <p><a class="button button-primary wpos-button-full" href="https://www.wponlinesupport.com/projobs-support/" target="_blank"><?php _e('PRO Support', 'sp-news-and-widget'); ?></a></p>
                                 </div><!-- .inside -->
                             </div><!-- #general -->
                         </div><!-- .meta-box-sortables ui-sortable -->
@@ -285,7 +285,7 @@ function wpnw_howitwork_page() { ?>
 										<span><?php _e( 'Help to improve this plugin!', 'sp-news-and-widget' ); ?></span>
 									</h3>									
 									<div class="inside">										
-										<p>Enjoyed this plugin? You can help by rate this plugin <a href="https://wordpress.org/support/plugin/sp-news-and-widget/reviews/?filter=5" target="_blank">5 stars!</a></p>
+										<p>Enjoyed this plugin? You can help by rate this plugin <a href="https://wordpress.org/support/plugin/sp-news-and-widget/reviews/" target="_blank">5 stars!</a></p>
 									</div><!-- .inside -->
 							</div><!-- #general -->
 						</div><!-- .meta-box-sortables ui-sortable -->

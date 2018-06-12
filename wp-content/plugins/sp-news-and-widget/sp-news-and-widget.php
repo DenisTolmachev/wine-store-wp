@@ -5,14 +5,14 @@ Plugin URL: https://www.wponlinesupport.com/plugins/
 Text Domain: sp-news-and-widget
 Domain Path: /languages/
 Description: A simple News and three widgets(static, scrolling and with thumbs) plugin
-Version: 4.0.1
+Version: 4.0.2
 Author: WP Online Support
 Author URI: https://www.wponlinesupport.com
 Contributors: WP Online Support
 */
 
 if( !defined( 'WPNW_VERSION' ) ) {
-    define( 'WPNW_VERSION', '4.0.1' ); // Version of plugin
+    define( 'WPNW_VERSION', '4.0.2' ); // Version of plugin
 }
 if( !defined( 'WPNW_DIR' ) ) {
     define( 'WPNW_DIR', dirname( __FILE__ ) ); // Plugin dir
@@ -20,35 +20,6 @@ if( !defined( 'WPNW_DIR' ) ) {
 if( !defined( 'WPNW_POST_TYPE' ) ) {
     define( 'WPNW_POST_TYPE', 'news' ); // Plugin post type
 }
-
-/* Plugin Analytics Data */
-function wpos_analytics_anl20_load() {
-
-    require_once dirname( __FILE__ ) . '/wpos-analytics/wpos-analytics.php';
-
-    $wpos_analytics =  wpos_anylc_init_module( array(
-                            'id'            => 20,
-                            'file'          => plugin_basename( __FILE__ ),
-                            'name'          => 'WP News and Scrolling Widgets',
-                            'slug'          => 'wp-news-and-scrolling-widgets',
-                            'type'          => 'plugin',
-                            'menu'          => 'edit.php?post_type=news',
-                            'text_domain'   => 'sp-news-and-widget',
-                            'promotion'     => array( // Only Pass if you have Promotion file
-                                                    'bundle' => array(
-                                                                'name'  => 'Plugin and Theme Bundle',
-                                                                'desc'  => 'Yes, I want to download the 50+ Plugins and 12+ Themes free.',
-                                                                'file'  => 'https://www.wponlinesupport.com/latest/wpos-free-50-plugins-plus-12-themes.zip'
-                                                            )
-                                                    )
-                        ));
-
-    return $wpos_analytics;
-}
-
-// Init Analytics
-wpos_analytics_anl20_load();
-/* Plugin Analytics Data Ends */
 
 register_activation_hook( __FILE__, 'install_newsfree_version' );
 function install_newsfree_version(){
@@ -61,13 +32,24 @@ function deactivate_newsfree_version(){
 }
 add_action( 'admin_notices', 'freenews_admin_notice');
 function freenews_admin_notice() {
+
     $dir = ABSPATH . 'wp-content/plugins/wp-news-and-widget-pro/sp-news-and-widget.php';
-    if( is_plugin_active( 'sp-news-and-widget/sp-news-and-widget.php' ) && file_exists($dir)) {
+    if( is_plugin_active( 'sp-news-and-widget/sp-news-and-widget.php' ) && file_exists($dir) ) {
         global $pagenow;
-        if( $pagenow == 'plugins.php' ){
+
+        $notice_link        = add_query_arg( array('message' => 'wpnw-plugin-notice'), admin_url('plugins.php') );
+        $notice_transient   = get_transient( 'wpnw_install_notice' );
+
+        if(  $notice_transient == false && $pagenow == 'plugins.php' && current_user_can( 'install_plugins' )  ){
             deactivate_plugins ( 'wp-news-and-widget-pro/sp-news-and-widget.php',true);
             if ( current_user_can( 'install_plugins' ) ) {
-                echo '<div id="message" class="updated notice is-dismissible"><p><strong>Thank you for activating WP News and three widgets</strong>.<br /> It looks like you had PRO version <strong>(<em>WP News and Five Widgets Pro</em>)</strong> of this plugin activated. To avoid conflicts the extra version has been deactivated and we recommend you delete it. </p></div>';
+                echo '<div class="updated notice" style="position:relative;">
+                    <p>
+                        <strong>'.sprintf( __('Thank you for activating %s', 'sp-news-and-widget'), 'WP News and three widgets').'</strong>.<br/>
+                        '.sprintf( __('It looks like you had PRO version %s of this plugin activated. To avoid conflicts the extra version has been deactivated and we recommend you delete it.', 'sp-news-and-widget'), '<strong>(<em>WP News and three widgets PRO</em>)</strong>' ).'
+                    </p>
+                    <a href="'.esc_url( $notice_link ).'" class="notice-dismiss" style="text-decoration:none;"></a>
+                </div>';
             }
         }
     }
@@ -115,9 +97,7 @@ function spnews_display_tags( $query ) {
 }
 add_filter( 'pre_get_posts', 'spnews_display_tags' );
 
-
 // Manage Category Shortcode Columns
-
 add_filter("manage_news-category_custom_column", 'news_category_columns', 10, 3);
 add_filter("manage_edit-news-category_columns", 'news_category_manage_columns'); 
 function news_category_manage_columns($theme_columns) {
@@ -154,8 +134,8 @@ function news_pagination($args = array()){
                     'current'   => max( 1, $args['paged'] ),
                     'total'     => $args['total'],
                     'prev_next' => true,
-                    'prev_text' => __('', 'wp-blog-and-widgets'),
-                    'next_text' => __('', 'wp-blog-and-widgets'),
+                    'prev_text' => __('« Previous', 'wp-blog-and-widgets'),
+                    'next_text' => __('Next »', 'wp-blog-and-widgets'),
                 ));
     
     echo paginate_links($paging);
@@ -184,3 +164,32 @@ require_once( WPNW_DIR . '/admin/class-wpnw-admin.php' );
 if ( is_admin() || ( defined( 'WP_CLI' ) && WP_CLI ) ) {
     require_once( WPNW_DIR . '/admin/wpnw-how-it-work.php' );
 }
+
+/* Plugin Analytics Data */
+function wpos_analytics_anl20_load() {
+
+    require_once dirname( __FILE__ ) . '/wpos-analytics/wpos-analytics.php';
+
+    $wpos_analytics =  wpos_anylc_init_module( array(
+                            'id'            => 20,
+                            'file'          => plugin_basename( __FILE__ ),
+                            'name'          => 'WP News and Scrolling Widgets',
+                            'slug'          => 'wp-news-and-scrolling-widgets',
+                            'type'          => 'plugin',
+                            'menu'          => 'edit.php?post_type=news',
+                            'text_domain'   => 'sp-news-and-widget',
+                            'offers'         => array(
+                                                    'trial_premium' => array(
+                                                                'button'    => 'TRY FREE FOR 30 DAYS',
+                                                                'image'     => 'http://analytics.wponlinesupport.com/?anylc_img=20',
+                                                                'link'      => 'https://www.wponlinesupport.com/plugins-plus-themes-powerpack-combo-offer/?ref=blogeditor'
+                                                        ),
+                                                    ),
+                        ));
+
+    return $wpos_analytics;
+}
+
+// Init Analytics
+wpos_analytics_anl20_load();
+/* Plugin Analytics Data Ends */

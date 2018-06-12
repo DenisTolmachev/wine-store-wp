@@ -11,7 +11,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 ?>
 <style type="text/css">
-	.notice, div.fs-notice.updated, div.fs-notice.success, div.fs-notice.promotion{display:none !important;}
+	.notice, .error, div.fs-notice.updated, div.fs-notice.success, div.fs-notice.promotion{display:none !important;}
 </style>
 
 <div class="wrap wpos-anylc-optin">
@@ -86,7 +86,7 @@ if ( !defined( 'ABSPATH' ) ) {
 				</div>
 			</div>
 			<div class="wpos-anylc-terms">
-				<a href="#" target="_blank">Privacy Policy</a> - <a href="#" target="_blank">Terms of Service</a>
+				<a href="https://www.wponlinesupport.com/privacy-policy/" target="_blank">Privacy Policy</a> - <a href="https://www.wponlinesupport.com/term-and-condition/" target="_blank">Terms of Service</a>
 			</div>
 		</div>
 	</form>

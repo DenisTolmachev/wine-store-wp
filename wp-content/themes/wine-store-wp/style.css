@@ -8408,45 +8408,45 @@ button {
 }
 
 /*-- Short news page--*/
-/* line 4, sass/layout/partials/news-page.scss */
+/* line 4, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-inner-wrap-view {
   border-bottom: 1px solid #4f3715;
 }
-/* line 8, sass/layout/partials/news-page.scss */
+/* line 8, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-thumb {
   width: 30%;
 }
-/* line 11, sass/layout/partials/news-page.scss */
+/* line 11, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content {
   margin-left: 4%;
   font-family: "Open Sans Regular";
 }
-/* line 14, sass/layout/partials/news-page.scss */
+/* line 14, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content .grid-date-post {
   color: #4f3715;
   /* text color */
 }
-/* line 17, sass/layout/partials/news-page.scss */
+/* line 17, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content .post-content-text {
   width: 90%;
 }
-/* line 20, sass/layout/partials/news-page.scss */
+/* line 20, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content .post-content-text .news-title a {
   color: #4f3715;
   /* text color */
   font-size: 30px;
   font-weight: bold;
 }
-/* line 27, sass/layout/partials/news-page.scss */
+/* line 27, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content .post-content-text .news-content-excerpt {
   color: #4f3715;
   /* text color */
 }
-/* line 29, sass/layout/partials/news-page.scss */
+/* line 29, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content .post-content-text .news-content-excerpt .news-short-content {
   text-align: justify;
 }
-/* line 32, sass/layout/partials/news-page.scss */
+/* line 32, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content .post-content-text .news-content-excerpt .news-more-link {
   float: right;
   height: 34px;
@@ -8455,13 +8455,13 @@ button {
   background-color: #ffffff;
   transition: 1s;
 }
-/* line 39, sass/layout/partials/news-page.scss */
+/* line 39, sass/layout/partials/_news-page.scss */
 .wpnawfree-plugin .news-col-list .news-content .post-content-text .news-content-excerpt .news-more-link:hover {
   background-image: url(images/down.png);
   transition: 1s;
 }
 
-/* line 49, sass/layout/partials/news-page.scss */
+/* line 49, sass/layout/partials/_news-page.scss */
 .news_pagination {
   display: flex;
   flex-direction: row;
@@ -8469,7 +8469,7 @@ button {
   justify-content: center;
   align-items: center;
 }
-/* line 55, sass/layout/partials/news-page.scss */
+/* line 55, sass/layout/partials/_news-page.scss */
 .news_pagination .page-numbers.current {
   background: #ffffff;
   padding: 0 3px;
@@ -8480,7 +8480,7 @@ button {
   font-weight: bold;
 }
 
-/* line 65, sass/layout/partials/news-page.scss */
+/* line 65, sass/layout/partials/_news-page.scss */
 .news_pagination a, .news_pagination a {
   color: #4f3715 !important;
   background: #ffffff;
@@ -8497,19 +8497,19 @@ button {
   text-decoration: none !important;
   transition: 100ms;
 }
-/* line 80, sass/layout/partials/news-page.scss */
+/* line 80, sass/layout/partials/_news-page.scss */
 .news_pagination a:hover, .news_pagination a:hover {
   font-size: 24px;
 }
 
-/* line 84, sass/layout/partials/news-page.scss */
+/* line 84, sass/layout/partials/_news-page.scss */
 .news_pagination a.next {
   height: 34px;
   width: 34px;
   background-image: url(images/next.png);
 }
 
-/* line 89, sass/layout/partials/news-page.scss */
+/* line 89, sass/layout/partials/_news-page.scss */
 .news_pagination a.prev {
   height: 34px;
   width: 34px;
@@ -8517,45 +8517,45 @@ button {
 }
 
 /*-- Full news page--*/
-/* line 97, sass/layout/partials/news-page.scss */
+/* line 97, sass/layout/partials/_news-page.scss */
 .content-area {
   margin: 50px 40px 30px 40px;
 }
-/* line 99, sass/layout/partials/news-page.scss */
+/* line 99, sass/layout/partials/_news-page.scss */
 .content-area .site-main {
   display: inline-block;
 }
-/* line 101, sass/layout/partials/news-page.scss */
+/* line 101, sass/layout/partials/_news-page.scss */
 .content-area .site-main .entry-header {
   text-align: center;
 }
-/* line 103, sass/layout/partials/news-page.scss */
+/* line 103, sass/layout/partials/_news-page.scss */
 .content-area .site-main .entry-header .entry-title {
   color: #4f3715;
   font-size: 36px;
   font-family: "Open Sans Regular";
   margin-bottom: 20px;
 }
-/* line 110, sass/layout/partials/news-page.scss */
+/* line 110, sass/layout/partials/_news-page.scss */
 .content-area .site-main img {
   width: 40%;
   height: 40%;
   float: left;
 }
-/* line 115, sass/layout/partials/news-page.scss */
+/* line 115, sass/layout/partials/_news-page.scss */
 .content-area .site-main .entry-content {
   width: 60%;
   float: right;
   padding-left: 30px;
 }
-/* line 120, sass/layout/partials/news-page.scss */
+/* line 120, sass/layout/partials/_news-page.scss */
 .content-area .site-main nav {
   display: inline-block;
   width: 100%;
   text-align: center;
   margin-top: 20px;
 }
-/* line 125, sass/layout/partials/news-page.scss */
+/* line 125, sass/layout/partials/_news-page.scss */
 .content-area .site-main nav a {
   color: #4f3715;
   font-size: 20px;
@@ -8564,22 +8564,23 @@ button {
 }
 
 /*--Comment field--*/
-/* line 136, sass/layout/partials/news-page.scss */
+/* line 136, sass/layout/partials/_news-page.scss */
 .comment-respond {
   display: inline-block;
   width: 52%;
   color: #4f3715;
   font-family: "Open Sans Regular";
 }
-/* line 144, sass/layout/partials/news-page.scss */
+/* line 144, sass/layout/partials/_news-page.scss */
 .comment-respond .comment-form p {
   margin: 0 0 5px;
 }
-/* line 146, sass/layout/partials/news-page.scss */
+/* line 146, sass/layout/partials/_news-page.scss */
 .comment-respond .comment-form p label {
   display: block;
+  margin-right: 10px;
 }
-/* line 149, sass/layout/partials/news-page.scss */
+/* line 150, sass/layout/partials/_news-page.scss */
 .comment-respond .comment-form p textarea, .comment-respond .comment-form p input {
   border: #4f3715 solid 1px;
   padding: 2px 5px;
@@ -8644,6 +8645,150 @@ button {
   background-image: url(images/sale.png);
   background-size: cover;
   z-index: 9;
+}
+
+/*--Product summary--*/
+/* line 3, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product div.summary {
+  color: #4f3715;
+  font-family: "Open Sans Regular";
+  text-align: justify;
+  padding-right: 15px;
+}
+/* line 9, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product div.summary .cart .quantity {
+  margin: 5px 15px 0 0;
+}
+/* line 11, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product div.summary .cart .quantity input {
+  border: 1px solid #4f3715;
+  outline: none;
+}
+/* line 16, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product div.summary .cart button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #cb4d0f;
+  border: 0;
+}
+/* line 22, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product div.summary .cart button:hover {
+  background-color: #ee631f;
+}
+
+/*--Product image--*/
+/* line 31, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product div.images img {
+  width: 90%;
+  margin: 30px auto;
+}
+
+/*--Comment field--*/
+/* line 40, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs:before {
+  border-bottom: 1px solid #4f3715;
+}
+/* line 43, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+  background-color: #cb4d0f;
+  border: 1px solid #4f3715;
+}
+/* line 46, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li:before {
+  border-color: #4f3715;
+  box-shadow: 2px 2px 0 #cb4d0f;
+}
+/* line 50, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li:after {
+  border-color: #4f3715;
+  box-shadow: -2px 2px 0 #cb4d0f;
+}
+/* line 54, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+  color: #ffffff;
+}
+/* line 56, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+  color: #ffffff;
+}
+/* line 60, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li:hover {
+  background-color: #ee631f;
+}
+/* line 62, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li:hover:before {
+  box-shadow: 2px 2px 0 #ee631f;
+}
+/* line 65, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs ul.tabs li:hover:after {
+  box-shadow: -2px 2px 0 #ee631f;
+}
+/* line 72, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs .panel {
+  border-bottom: 1px solid #4f3715;
+  border-radius: 0;
+  color: #4f3715;
+  font-family: "Open Sans Regular";
+  text-align: justify;
+  padding: 0 15px 0 15px;
+}
+/* line 83, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs .panel .woocommerce-Reviews .comments .commentlist .star-rating:before {
+  color: #4f3715;
+}
+/* line 86, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs .panel .woocommerce-Reviews .comments .commentlist .star-rating .span {
+  color: #cb4d0f;
+}
+/* line 95, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs .panel .woocommerce-Reviews #review_form_wrapper .comment-form .comment-form-rating label {
+  margin-right: 10px;
+}
+/* line 98, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs .panel .woocommerce-Reviews #review_form_wrapper .comment-form .comment-form-rating select {
+  margin: 0 0 1em;
+  border: #4f3715 solid 1px;
+  padding: 2px;
+  border-radius: 4px;
+  outline: none;
+  color: #4f3715;
+  font-family: "Open Sans Regular";
+}
+/* line 109, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs .panel .woocommerce-Reviews #review_form_wrapper .comment-form .form-submit input#submit {
+  margin: 5px 0 5px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #cb4d0f;
+  border: 0;
+}
+/* line 116, sass/layout/partials/_single-product-page.scss */
+.woocommerce div.product .woocommerce-tabs .panel .woocommerce-Reviews #review_form_wrapper .comment-form .form-submit input#submit:hover {
+  background-color: #ee631f;
+}
+
+/* line 127, sass/layout/partials/_single-product-page.scss */
+.woocommerce .star-rating::before {
+  color: #4f3715;
+}
+
+/* line 130, sass/layout/partials/_single-product-page.scss */
+.woocommerce .star-rating span {
+  color: #cb4d0f;
+}
+
+/* line 134, sass/layout/partials/_single-product-page.scss */
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+  border-color: #4f3715;
+  color: #4f3715;
+  font-family: "Open Sans Regular";
+}
+/* line 138, sass/layout/partials/_single-product-page.scss */
+.woocommerce #reviews #comments ol.commentlist li .comment-text .meta {
+  color: #4f3715;
+  font-family: "Open Sans Regular";
 }
 
 /* line 1, sass/layout/_nav-field.scss */

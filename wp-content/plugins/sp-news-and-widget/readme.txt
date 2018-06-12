@@ -1,8 +1,8 @@
 === WP News and Scrolling Widgets  ===
 Contributors: wponlinesupport, anoopranawat
 Tags: wponlinesupport, wordpress news plugin, news website, main news page scrolling , wordpress vertical news plugin widget, wordpress horizontal news plugin widget , Free scrolling news wordpress plugin, Free scrolling news widget wordpress plugin, WordPress set post or page as news, WordPress dynamic news, news, latest news, custom post type, cpt, widget, vertical news scrolling widget, news widget
-Requires at least: 3.1
-Tested up to: 4.9.5
+Requires at least: 3.5
+Tested up to: 4.9.6
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -120,8 +120,10 @@ first select "Default" and save then again select "Custom Structure "  and save.
 
 = How to install : =
 [youtube https://www.youtube.com/watch?v=07IRBn1oXrU] 
- 
- 
+
+= Privacy & Policy =
+* We have also opt-in e-mail selection , once you download the plugin , so that we can inform you and nurture you about products and its features.
+
 == Installation ==
 
 1. Upload the 'sp-news-and-widget' folder to the '/wp-content/plugins/' directory.
@@ -159,6 +161,9 @@ Yse  <code> [sp_news] </code>
 7. Widgets Options
 
 == Changelog ==
+
+= 4.0.2 (04 June 2018) =
+* [*] Follow some WordPress Detailed Plugin Guidelines.
 
 = 4.0.1 (07 May 2018) =
 * [*] Taken batter care in list design if featured image not added.
@@ -265,109 +270,3 @@ Yse  <code> [sp_news] </code>
 
 = 1.0 =
 * Initial release.
-
-== Upgrade Notice ==
-
-= 4.0.1 (07 May 2018) =
-* [*] Taken batter care in list design if featured image not added.
-* [*] Fixed grid-1 issues, where grid was loading actual image path.
-* [*] Fixed some design issues
-
-= 4.0 (30 March 2018) =
-* [*] Fixed some design issues
-* [*] Modified plugin file structure 
-* [*] Tested with WordPress 4.9.4
-
-= 3.3.4 (29 July 2017) =
-* [+] Added prefix to some css generic name classes to avoid the conflict with theme CSS or third party plugin.
-
-= 3.3.2 (19 June 2017) =
-* [*] Resolved displaying multiple scrolling widget issue.
-
-= 3.3.1 (19 May 2017) =
-* [*] Resolved WPML language translate issue while news is being displayed with taxonomy.
-* [*] Updated 'How it Work' page.
-* [*] Resolved post status issue. Now only 'Published' post will be displayed.
-
-= 3.3 (15/02/2017) =
-* [+] Added new shortcode parameter "pagination_type" (Select the pagination type for News ie "numeric" OR "next-prev" ).
-
-= 3.2.11 (09/12/2016) =
-* [*] Resolved conflict when 'WP News and Widget - Masonry Layout' plugin is activated.
-
-= 3.2.10 (28/10/2016) =
-* [+] Added "How it Work" tab.
-* [-] Removed Pro design tab.
-* Fixed some css issue.
-
-= 3.2.9 (10/17/2016) =
-* [+] Added design to readmore button and pagination.
-* [+] Added design for widgets section.
-* Fixed some css issue.
-
-= 3.2.8 =
-* Fixed image display issue.
-* Fixed some css issue.
-* Fuxed widget with image issue.
-
-= 3.2.7 =
-* Added excerpt functionality in post description.
-* Resolved display post content issue.
-
-= 3.2.6 =
-* Fixed some css issues
-* Updated PRO plugin design page.
-
-= 3.2.5 =
-* Fixed some css issues.
-
-= 3.2.4 =
-* Added translation in German, French (France), Polish languages (Beta)
-* Fixed some bug
-* Added 2 new design for pro version
-
-= 3.2.3 =
-* Added textdomain
-* Widget scrolling setting page renoved and added setting in widget only.
-* Fixed some bug
-
-= 3.2.2 =
-* Added Pro version
-* Fixed some bugs
-
-= 3.2.1 =
-* Added new shortcode parameters show_date.
-* Fixed some bugs.
-
-= 3.2 =
-* Widget Options like Show News date, Show News Categories, Select News Categories.
-
-= 3.1.1 =
-* Solved categories bug
-
-= 3.1 =
-* Added new shortcode parameters ie show_content, show_category_name and content_words_limit
-* Fixed some bug
-
-= 3.0 =
-* Display News with List view
-* Display News with Grid [sp_news grid="2"]
-* Added pagination [sp_news limit="10"]
-
-= 2.2.1 =
-* fixed the bug : Shows news on top of static page
-
-= 2.2 =
-* Call the news post with shortcode
-* Call the news post with category wise
-
-= 2.1 =
-Scroll main page news
-Setting page for enable or disable main page news scrolling
-Setting page for main news page vertical and horizontal news scrolling
-
-= 2.0 =
-Added Vertical and horizontal news scrolling widget with setting page
-
-= 1.0 =
-Initial release.

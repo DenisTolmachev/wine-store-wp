@@ -182,7 +182,7 @@ function wpnaw_get_news( $atts, $content = null ){
 									<div class="news-short-content">                                    
 										<?php echo string_limit_newswords( $post->ID, $excerpt, $words_limit, '...'); ?>
 									</div>                				
-									<a href="<?php the_permalink(); ?>" class="news-more-link"><?php _e( '', 'sp-news-and-widget' ); ?></a>
+									<a href="<?php the_permalink(); ?>" class="news-more-link"><?php _e( 'Read More', 'sp-news-and-widget' ); ?></a>	
 								<?php } else {             				
 									the_content();
 								} ?>
@@ -198,8 +198,8 @@ function wpnaw_get_news( $atts, $content = null ){
         <?php if($pagination_type == 'numeric'){ 
             echo news_pagination( array( 'paged' => $paged , 'total' => $query->max_num_pages ) );
         }else{ ?>    		
-            <div class="button-news-p"><?php next_posts_link( '', $query->max_num_pages ); ?></div>
-            <div class="button-news-n"><?php previous_posts_link( '' ); ?> </div>
+            <div class="button-news-p"><?php next_posts_link( ' Next >>', $query->max_num_pages ); ?></div>    		
+            <div class="button-news-n"><?php previous_posts_link( '<< Previous' ); ?> </div>
         <?php } ?>
 	</div><?php
     
