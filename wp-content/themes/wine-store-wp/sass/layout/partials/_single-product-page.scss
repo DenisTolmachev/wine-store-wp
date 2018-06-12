@@ -1,0 +1,143 @@
+/*--Product summary--*/
+
+.woocommerce div.product div.summary {
+  color: #4f3715;
+  font-family: $OSRegular;
+  text-align: justify;
+  padding-right: 15px;
+  .cart {
+    .quantity {
+      margin: 5px 15px 0 0;
+      input {
+        border: 1px solid #4f3715;
+        outline: none;
+      }
+    }
+    button {
+      padding: 10px 20px;
+      border-radius: 5px;
+      color: #ffffff;
+      background-color: #cb4d0f;
+      border: 0;
+      &:hover {
+        background-color: lighten(#cb4d0f, 10%);
+      }
+    }
+  }
+}
+
+/*--Product image--*/
+
+.woocommerce div.product div.images img {
+  width: 90%;
+  margin: 30px auto;
+}
+
+/*--Comment field--*/
+
+.woocommerce div.product .woocommerce-tabs {
+  ul.tabs {
+    &:before {
+      border-bottom: 1px solid #4f3715;
+    }
+    li {
+      background-color: #cb4d0f;
+      border: 1px solid #4f3715;
+      &:before {
+        border-color: #4f3715;
+        box-shadow: 2px 2px 0 #cb4d0f;
+      }
+      &:after {
+        border-color: #4f3715;
+        box-shadow: -2px 2px 0 #cb4d0f;
+      }
+      a {
+        color: #ffffff;
+        &:hover {
+          color: #ffffff;
+        }
+      }
+      &:hover {
+        background-color: lighten(#cb4d0f, 10%);
+        &:before {
+          box-shadow: 2px 2px 0 lighten(#cb4d0f, 10%);
+        }
+        &:after {
+          box-shadow: -2px 2px 0 lighten(#cb4d0f, 10%);
+        }
+      }
+    }
+  }
+
+  .panel {
+    border-bottom: 1px solid #4f3715;
+    border-radius: 0;
+    color: #4f3715;
+    font-family: $OSRegular;
+    text-align: justify;
+    padding: 0 15px 0 15px;
+    .woocommerce-Reviews {
+      .comments {
+        .commentlist {
+          .star-rating {
+            &:before {
+              color: #4f3715;
+            }
+            .span {
+              color: #cb4d0f;
+            }
+          }
+        }
+      }
+      #review_form_wrapper {
+        .comment-form {
+          .comment-form-rating {
+            label {
+              margin-right: 10px;
+            }
+            select {
+              margin: 0 0 1em;
+              border: #4f3715 solid 1px;
+              padding: 2px;
+              border-radius: 4px;
+              outline: none;
+              color: #4f3715;
+              font-family: $OSRegular;
+            }
+          }
+          .form-submit {
+            input#submit {
+              margin: 5px 0 5px 0;
+              padding: 10px 20px;
+              border-radius: 5px;
+              color: #ffffff;
+              background-color: #cb4d0f;
+              border: 0;
+              &:hover {
+                background-color: lighten(#cb4d0f, 10%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.woocommerce .star-rating::before {
+  color: #4f3715;
+  }
+.woocommerce .star-rating span {
+  color: #cb4d0f;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+  border-color: #4f3715;
+  color: #4f3715;
+  font-family: $OSRegular;
+  .meta {
+    color: #4f3715;
+    font-family: $OSRegular;
+  }
+}
+
