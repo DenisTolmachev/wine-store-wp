@@ -1,5 +1,10 @@
-<?php get_header('pages'); ?>
-    <div class="main-heading">
-        <h1>Контакты</h1>
+<?php get_header('contacts'); ?>
+    <div class="main-contacts">
+        <div class="boards-field">
+            lkjhgfdsa
+        </div>
+        <div class="map-field">
+            KJHGFDSA
+        </div>
     </div>
 <?php get_footer(); ?>

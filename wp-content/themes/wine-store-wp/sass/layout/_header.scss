@@ -44,3 +44,21 @@ header {
   overflow: visible;
   background-position-y: 0;
 }
+
+#header-contacts {
+  max-height: 214px;
+  background-image: url(images/news-contacts-bg.png);
+  overflow: visible;
+  background-position-y: 0;
+  &:after {
+    padding-top: 6%;
+    bottom: -4px;
+    width: 100%;
+    max-height: 68px;
+    position: absolute;
+    content: '';
+    background-image: url(images/figure1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
